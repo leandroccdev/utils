@@ -1,0 +1,17 @@
+{
+  "name": "google_slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Federico Leandro Cañellas",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^24.10.2"
+  }
+}
