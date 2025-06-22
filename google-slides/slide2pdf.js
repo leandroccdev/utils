@@ -54,7 +54,7 @@ const SLIDE_NAME = "i.png";
 const MS_BETWEEN_SLIDES = 1000;
 
 // Set date mark to output file
-OUTPUT_FILE = `${DATE_MARK}_${OUTPUT_FILE}`;
+// OUTPUT_FILE = `${DATE_MARK}_${OUTPUT_FILE}`;
 
 (async () => {
     console.log("[Info] Initializing browser...");/* #< */
