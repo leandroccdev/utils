@@ -55,7 +55,7 @@ install_if_not_exists "ffmpeg" "pacman"
 #<
 # This isn't gonna work for \n at file names
 shopt -s extglob
-audio_files_count=$($(ls -c *.+(m4a|wav|flac|ogg|aac) 2>/dev/null) | wc -l)
+audio_files_count=$(ls -c *.+(m4a|wav|flac|ogg|aac) 2>/dev/null | wc -l)
 [[ !$audio_files_count -gt 0 ]] && echo "[Info] No processable files were found!" && exit 0;
 
 for audio_file in *.+(m4a|wav|flac|ogg|aac); do
