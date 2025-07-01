@@ -59,4 +59,4 @@ cut_at=$(grep -E 'BASTIAN LANDSKRON:.*[0-9]{1,2}:[0-9]{2}.*[0-9]{1,2}:[0-9]{2}' 
 # Cut not found
 [[ -z "$cut_at" ]] && echo "[Error] Cut point not found!" && exit 1;
 
-ffmpeg -i $vclass -to $cut_at -c copy $vout
+ffmpeg -loglevel quiet -i $vclass -to $cut_at -c copy $vout
