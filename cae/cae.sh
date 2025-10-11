@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
 # Description
-#   Checks current installment of the CAE loan.
-#   A new installment is released between the 5th to the 8th of each month.
+#   Checks the current installment of the CAE loan.
+#   A new installment is released between the 5th and the 8th of each month.
 #
 # Usage
 #   cae.sh [DNI]
