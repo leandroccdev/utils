@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/bash
+# Description
 # Remove spaces from file names and replace them with underscores
 
 for f in *\ *; do
